@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Page Not Found{% endblock %}
+
+{% block css %}
+{% endblock %}
+
+{% block main %}
+<div class="p-4 container d-flex align-items-center justify-content-center">
+  <div>
+    <h1 class="display-1">404</h1>
+    <p>That page doesn't even exist.</p>
+    <p>Why don't you just <a href="{{ url_for('index') }}">go back home</a>?</p>
+    
+      </div>
+</div>
+{% endblock %}
